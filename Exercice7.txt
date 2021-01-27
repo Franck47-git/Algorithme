@@ -1,0 +1,11 @@
+ALGORITHME tringleRectangle
+var A, B, C : entier
+DEBUT
+    ECRIRE("Entrer trois valeur différentes A, B, C")
+    LIRE(A, B, C)
+    si (A ^2 = B^2 + C^2)
+       ECRIRE("le triangle est rectangle)
+    sinon
+       ECRIRE("le triangle n'est pas rectangle")
+    finsi
+FIN
