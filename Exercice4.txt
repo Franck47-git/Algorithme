@@ -1,0 +1,15 @@
+ALGORITHME repert
+var ec, el : entier
+DEBUT
+   ECRIRE("Enter deux nombres")
+   LIRE(ec,el)
+    si(ec > 0 et el > 0 ou ec < 0 et el < 0)
+      ECRIRE("le produit de ces nombres est positif")
+    sinon 
+     si(ec > 0 et el < 0 ou ec < 0 et el > 0)
+        ECRIRE("le produit de ces nombres est négatif")
+    sinon 
+     ECRIRE("le produit de ces nombres est null")
+     finsi
+        finsi
+FIN
