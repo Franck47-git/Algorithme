@@ -1,0 +1,14 @@
+ALGORITHME enter-to-name
+DEBUT
+var A, B: entier
+    ECRIRE("Entrer un premier nombre")
+    LIRE(A)
+    si (A > B)
+       ECRIRE("le nombre est positif")
+        si(B < A)
+       ECRIRE("Le nombre est négatif")
+       sinon
+         ECRIRE("la valeur entrée n'est pas un nombre")
+     finsi
+        finsi
+FIN
