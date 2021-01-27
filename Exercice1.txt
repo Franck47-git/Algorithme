@@ -1,0 +1,12 @@
+ALGORITHME number
+var x : entier
+DEBUT
+      ECRIRE('entrer un nombre')
+       LIRE(x)
+     si x > 0
+      ECRIRE ('le nombre est positif')
+     
+     sinon
+      ECRIRE ('le nombre est négatif')
+    finsi
+FIN
