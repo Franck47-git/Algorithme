@@ -1,0 +1,24 @@
+ALGORITHME username
+ var age: entier
+  DEBUT
+   ECRIRE("saisissez votre age")
+    LIRE(age)
+    si (age == 6 ou age == 7)
+  ECRIRE ('vous êtes un poussin')
+   si (age == 8 ou age = 9)
+  ECRIRE ('vous êtes un pupille')
+   si (age == 10 ou age<= 11)
+   ECRIRE ('vous êtes un minime')
+
+   si (age >= 12)
+   ECRIRE ('vous êtes un minime')
+
+   sinon
+     
+   finsi
+
+   FIN
+
+   
+
+    
