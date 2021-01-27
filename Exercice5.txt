@@ -1,0 +1,14 @@
+ALGORITHME number 
+var xdf: entier
+DEBUT
+   ECRIRE("Entrer un nombre")
+    si(xdf > 0)
+    ECRIRE ("le nombre est positif")
+        si(xdf < 0)
+    ECRIRE("le nombre est négatif")
+       sinon
+    ECRIRE ("le nombre entrer est à la fois positif et négatif")
+    finsi
+        finsi
+FIN
+    
