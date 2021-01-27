@@ -1,0 +1,10 @@
+ALGORITHME nombre
+variable 
+        nbr1, nbr2 : entier
+DEBUT
+      ECRIRE ('enter deux nombres')
+        LIRE(nbr1, nbr2)
+      si(nbr1 > 0 et nbr2> 0 ou nbr1 < 0 et nbr2<0)
+
+      ECRIRE('le produit des deux nombres est positif')
+       si ()
